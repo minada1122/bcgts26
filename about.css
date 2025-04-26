@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(desktop2.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+
+
+
+.qw{
+	font-size: 20px;
+}
+
+.qww{
+	display: inline-block;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop .5s ease forwards;
+}
+
+.qw{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 1s ease forwards;
+}
+
+.qw{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 1.5s ease forwards;
+}
+
+.er{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 2s ease forwards;
+}
+
+.qwq{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 2.5s ease forwards;
+}
+
+
+@keyframes slideTop {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;

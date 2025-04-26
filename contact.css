@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(desktop1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+
+
+.ww{
+	
+	display: inline-block;
+	font-size: 65px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop .5s ease forwards;
+
+}
+
+.www{
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 1s ease forwards;
+}
+
+.mm{
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 1.5s ease forwards;
+}
+
+.mmm{
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+	transition: .3s;
+	opacity: 0;
+	animation: slideTop 2s ease forwards;
+}
+
+@keyframes slideTop {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+
+
+
+

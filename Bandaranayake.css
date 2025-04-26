@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.note-card {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-radius: 15px;
+  padding: 30px;
+  width: 500px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  animation: floatCard 2s ease-in-out infinite alternate;
+}
+
+.note-card h2 {
+  color: #60a5fa;
+  margin-bottom: 15px;
+}
+
+.note-card h1 {
+  color: #00ff00;
+  margin-bottom: 15px;
+}
+
+.note-card ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.note-card li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+.principal:hover {
+            transform: scale(1.05);
+        }
+
+
+
+
+/* Animation */
+@keyframes floatCard {
+  0% {
+    transform: translateY(0px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(255, 255, 255, 0.2);
+  }
+}
